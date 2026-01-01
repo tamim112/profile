@@ -37,6 +37,25 @@
         .services-item{
           height: 100%;
         }
+
+        .shot-item {
+          position: relative;
+          overflow: hidden;
+        }
+
+        .project-title {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          padding: 10px 12px;
+          background: rgba(0, 0, 0, 0.75);
+          color: #fff;
+          font-size: 14px;
+          font-weight: 600;
+          text-align: center;
+          z-index: 2;
+        }
+
     </style>
 
     <!-- Header Area wrapper Starts -->
@@ -128,9 +147,9 @@
                 <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">MD. TAMIM HOSSEN</h2>
                 <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Software Engineer (Backend)</p>
                 <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
-                  <li>
+                  <!-- <li>
                     <a class="facebook" href="https://www.facebook.com/Md.TamimHossen0"><i class="icon-social-facebook"></i></a>
-                  </li>
+                  </li> -->
                   <li>
                     <a class="linkedin" href="https://bd.linkedin.com/in/md-tamim-hossen112"><i class="icon-social-linkedin"></i></a>
                   </li>
@@ -166,19 +185,11 @@
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
               <h3>Hi Guys!</h3>
-              <p style="text-align: justify;"> To thrive as a skilled software developer by 
-                crafting innovative, scalable, and efficient 
-                solutions that empower businesses to 
-                achieve their goals. With expertise in 
-                Python backend development, cloud 
-                technologies, and system analysis, I aim to 
-                drive impactful projects while embracing 
-                challenges that foster continuous learning 
-                and growth. Passionate about leveraging 
-                cutting-edge technologies and best 
-                practices, I aspire to be a key contributor to 
-                organizational success and technological 
-                advancement.</p>
+              <p style="text-align: justify;">To work as a backend software engineer designing and delivering scalable, secure, and highperformance backend systems. Leveraging strong expertise in Python-based backend development,
+                      cloud technologies, and system analysis. I aim to take ownership of complex services, collaborate across
+                      teams, and build reliable engineering solutions that support long-term business growth and technical
+                      excellence.
+              </p>
               <div class="about-profile">
                 <ul class="admin-profile">
                   <li><span class="pro-title"> Name </span> <span class="pro-detail">Md. Tamim Hossen</span></li>
@@ -188,7 +199,6 @@
                   <li><span class="pro-title"> Gender </span> <span class="pro-detail">Male</span></li>
                   <li><span class="pro-title"> Religion </span> <span class="pro-detail">Islam</span></li>
                   <li><span class="pro-title"> M. status </span> <span class="pro-detail"> Married</span></li>
-                  <li><span class="pro-title"> Country </span> <span class="pro-detail">Bangladesh</span></li>
                   <li><span class="pro-title"> Location </span> <span class="pro-detail">Mirpur-12,Dhaka</span></li>
                   <li><span class="pro-title"> E-mail </span> <span class="pro-detail">tamimhossen112@gmail.com</span></li>
                   <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (88) 01722-955242</span></li>
@@ -206,61 +216,78 @@
 
     <!-- Services Section Start -->
     <section id="services" class="services section-padding">
-      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I Do</h2>
       <div class="container">
         <div class="row">
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12" >
+
+          <!-- Backend Development -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon">
                 <i class="icon-grid"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Back-End Development</a></h3>
-                <p>Python, PHP, Cloud Deployment(Microsoft Azure)</p>
+                <h3><a href="#">Backend Development</a></h3>
+                <p>
+                  Python-based backend development, REST APIs, business logic,
+                  authentication, and scalable system design.
+                </p>
               </div>
             </div>
           </div>
-    
-          <!-- Services item -->
-          <div class="col-md-6 col-lg-3 col-xs-12" >
-            <div class="services-item wow fadeInDown" data-wow-delay="0.9s" >
+
+          <!-- Web Development -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
                 <i class="icon-briefcase"></i>
               </div>
               <div class="services-content">
                 <h3><a href="#">Web Development</a></h3>
-                <p>Standard web developing <br> HTML5, CSS3, Bootstrap, JavaScript, JQuery, Ajax</p>
+                <p>
+                  HTML5, CSS3, Bootstrap, JavaScript, jQuery, Ajax —
+                  clean UI with smooth frontend–backend integration.
+                </p>
               </div>
             </div>
           </div>
-           <!-- Services item -->
-           <div class="col-md-6 col-lg-3 col-xs-12" >
+
+          <!-- Cloud & Deployment -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
               <div class="icon">
-                <i class="icon-briefcase"></i>
+                <i class="icon-cloud"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Programming</a></h3>
-                <p>Python, C, C++, C#, Java,  <br> R, Embedded C</p>
+                <h3><a href="#">Cloud & Deployment</a></h3>
+                <p>
+                  Deployment and management on Microsoft Azure & GCP,
+                  Docker-based environments, and production-ready setups.
+                </p>
               </div>
             </div>
           </div>
-          <!-- Services item -->
+
+          <!-- Database & Data -->
           <div class="col-md-6 col-lg-3 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
                 <i class="icon-bubbles"></i>
               </div>
               <div class="services-content">
-                <h3><a href="#">Database</a></h3>
-                <p>Experties on MySql,MSSql,Sql</p>
+                <h3><a href="#">Database & Data</a></h3>
+                <p>
+                  MySQL, PostgreSQL, MSSQL, BigQuery —
+                  schema design, query optimization, and data handling.
+                </p>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
+
     <!-- Services Section End -->
 
     <!-- Resume Section Start -->
@@ -305,177 +332,225 @@
                   <i class="icon-briefcase"></i>
                   <h2 class="timelin-title">Experience</h2>
                 </li>
+
+                <!-- Current Role -->
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Software Engineer (Backend) - Transcom Limited</h3>
-                    <span>Aug 2022 - Present </span>
-                    <p class="line-text">Python, Web2py, API Development, MySQL, Azure Cloud Deployment</p>
+                    <h3 class="line-title">Software Engineer (Backend) — Transcom Limited</h3>
+                    <span>Aug 2022 – Present</span>
+                    <p class="line-text">
+                      Backend development for enterprise HRIS & ERP systems using Python (web2py/py4web).
+                      Designed REST APIs, handled business logic, database optimization (MySQL),
+                      and deployed production systems on Microsoft Azure & GCP.
+                    </p>
                   </div>
                 </li>
+
+                <!-- Previous Role -->
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Former Jr. Software Engineer - Euro Bangla IT Ltd.</h3>
-                    <span>Oct 2021 - Aug 2022</span>
-                    <p class="line-text">Back-end Developer for ERP Solution.</p>
+                    <h3 class="line-title">Junior Software Engineer — Euro Bangla IT Ltd.</h3>
+                    <span>Oct 2021 – Aug 2022</span>
+                    <p class="line-text">
+                      Worked as a backend developer on ERP solutions.
+                      Built core modules, optimized database queries,
+                      and collaborated with frontend teams for system integration.
+                    </p>
                   </div>
                 </li>
+
+                <!-- Academic / Professional Projects -->
                 <li>
                   <div class="content-text">
-                    <h3 class="line-title">Web Developer - project</h3>
-                    <span>Dec 2019 - Dec 2020</span>
-                    <p class="line-text">Online Health Care Using HTML,PHP,CSS,JavaScript,Mysql</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="content-text">
-                    <h3 class="line-title">Facial expression recognition - Project</h3>
-                    <span>Jan 2019 - Dec 2019</span>
-                    <p class="line-text">Using python and Embedded System</p>
+                    <h3 class="line-title">Backend & Web Development Projects</h3>
+                    <span>Dec 2019 – Dec 2020</span>
+                    <p class="line-text">
+                      Developed a healthcare web application with role-based access,
+                      backend logic using PHP & MySQL, and responsive UI using HTML, CSS, and JavaScript.
+                    </p>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
+
         </div>
       </div>
     </div>
     <!-- Resume Section End -->
 
     <!-- Portfolio Section -->
-    <section id="portfolios" class="section-padding">
-      <!-- Container Starts -->
-      <div class="container">        
-        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
-        <div class="row">          
-          <div class="col-md-12">
-            <!-- Portfolio Controller/Buttons -->
-            <div class="controls text-center">
-              <a class="filter active btn btn-common" data-filter="all">
-                All 
-              </a>
-              <a class="filter btn btn-common" data-filter=".design">
-                Design 
-              </a>
-              <a class="filter btn btn-common" data-filter=".development">
-                Development
-              </a>
-              <a class="filter btn btn-common" data-filter=".print">
-                Print 
-              </a>
-            </div>
-            <!-- Portfolio Controller/Buttons Ends-->
-          </div>
+<section id="portfolios" class="section-padding">
+  <!-- Container Starts -->
+  <div class="container">
+    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">
+      My Remarkable Works
+    </h2>
 
-          <!-- Portfolio Recent Projects -->
-          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Portfolio Controller/Buttons -->
+        <div class="controls text-center">
+          <a class="filter active btn btn-common" data-filter="all">All</a>
+          <a class="filter btn btn-common" data-filter=".development">Development</a>
+        </div>
+        <!-- Portfolio Controller/Buttons Ends-->
+      </div>
+
+      <!-- Portfolio Projects -->
+      <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+
+        <!-- 1. myTranscom -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-1.jpg" alt="myTranscom HRIS" />
+
+              <div class="project-title">
+                myTranscom – HRIS & ERP System
               </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-3.jpg" alt=""/> 
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-4.jpg" alt="" /> 
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
-              <div class="portfolio-item">
-                <div class="shot-item">
-                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
-                  <div class="overlay">
-                    <div class="icons">
-                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
-                        <i class="icon-eye"></i>
-                      </a>
-                      <a class="link" href="#">
-                        <i class="icon-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>               
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- 2. Vehicle Management System -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-2.jpg" alt="Vehicle Management System" />
+
+              <div class="project-title">
+                Vehicle Management System
+              </div>
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Secondary Sales System -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-3.jpg" alt="Secondary Sales System" />
+
+              <div class="project-title">
+                Secondary Sales Management System
+              </div>
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. GRC-IBD -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-4.jpg" alt="GRC IBD System" />
+
+              <div class="project-title">
+                GRC-IBD Compliance System
+              </div>
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Advertisement Booking System -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-5.jpg" alt="Advertisement Booking System" />
+
+              <div class="project-title">
+                Advertisement Booking System
+              </div>
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Paper Circulation System -->
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="assets/img/gallery/img-6.jpg" alt="Paper Circulation System" />
+
+              <div class="project-title">
+                Paper Circulation Management System
+              </div>
+
+              <div class="overlay">
+                <div class="icons">
+                  <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                    <i class="icon-eye"></i>
+                  </a>
+                  <a class="link" href="#">
+                    <i class="icon-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <!-- Container Ends -->
-    </section>
-    <!-- Portfolio Section Ends --> 
+    </div>
+  </div>
+  <!-- Container Ends -->
+</section>
+<!-- Portfolio Section Ends -->
+
 
     <!-- Counter Area Start-->
     <section class="counter-section section-padding">
@@ -485,7 +560,7 @@
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon"><i class="icon-briefcase"></i></div>
-              <div class="counterUp">01</div>
+              <div class="counterUp">8</div>
               <p>Project Working</p>
             </div>
           </div>
@@ -493,7 +568,7 @@
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon"><i class="icon-check"></i></div>
-              <div class="counterUp">002</div>
+              <div class="counterUp">6</div>
               <p>Project Done</p>
             </div>
           </div>
@@ -501,7 +576,7 @@
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="0.9s">
               <div class="icon"><i class="icon-diamond"></i></div>
-              <div class="counterUp">003</div>
+              <div class="counterUp">3</div>
               <p>Awards Received</p>
             </div>
           </div>
@@ -509,7 +584,7 @@
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
             <div class="counter wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon"><i class="icon-heart"></i></div>
-              <div class="counterUp">003</div>
+              <div class="counterUp">13</div>
               <p>Happy Clients</p>
             </div>
           </div>
@@ -604,9 +679,7 @@
           <div class="col-md-12">
             <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
               <ul class="social-icon">
-                <li>
-                  <a class="facebook" href="https://www.facebook.com/Md.TamimHossen0"><i class="icon-social-facebook"></i></a>
-                </li>
+               
                 <li>
                   <a class="linkedin" href="https://bd.linkedin.com/in/md-tamim-hossen112"><i class="icon-social-linkedin"></i></a>
                 </li>
